@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE daraz[
+<!ELEMENT daraz (open_date,close_date,name,items)>
+<!ELEMENT close_date (#PCDATA)>
+<!ELEMENT open_date (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT items (men_fashion,women_fashion,grossry,home_appliances,electronic)>
+<!ELEMENT men_fashion (jeans,watches,t_shirts,clothes,foot_wear)>
+<!ELEMENT jeans (#PCDATA)>
+<!ELEMENT watches (#PCDATA)>
+<!ELEMENT t_shirts (#PCDATA)>
+<!ELEMENT clothes (#PCDATA)>
+<!ELEMENT foot_wear (#PCDATA)>
+<!ELEMENT women_fashion (wjeans,wwatches,wt_shirts,wclothes,wfoot_wear)>
+<!ELEMENT wjeans (#PCDATA)>
+<!ELEMENT wwatches (#PCDATA)>
+<!ELEMENT wt_shirts (#PCDATA)>
+<!ELEMENT wclothes (#PCDATA)>
+<!ELEMENT wfoot_wear (#PCDATA)>
+<!ELEMENT grossry (rice,flour,tea,vegetables)>
+<!ELEMENT rice (#PCDATA)>
+<!ELEMENT flour (#PCDATA)>
+<!ELEMENT tea (#PCDATA)>
+<!ELEMENT vegetables (#PCDATA)>
+<!ELEMENT home_appliances (tv,fridge,juicer,tooster)>
+<!ELEMENT tv (#PCDATA)>
+<!ELEMENT fridge (#PCDATA)>
+<!ELEMENT juicer (#PCDATA)>
+<!ELEMENT tooster (#PCDATA)>
+<!ELEMENT electronic (laptop,mobiles,usb,mouse)>
+<!ELEMENT laptop (#PCDATA)>
+<!ELEMENT mobiles (#PCDATA)>
+<!ELEMENT usb (#PCDATA)>
+<!ELEMENT mouse (#PCDATA)>
+]>
+<daraz>
+	<open_date>2000-03-27</open_date>
+	<close_date>2019-03-27</close_date>
+	<name>maxbachat</name>
+	<items>
+		<men_fashion>
+		    <jeans>Denim</jeans>
+		    <watches>rado</watches>
+        <t_shirts>idea</t_shirts>
+		    <clothes>Khaddi</clothes>
+		    <foot_wear>bata</foot_wear>
+	    </men_fashion>
+	    <women_fashion>
+		    <wjeans>Denim</wjeans>
+		    <wwatches>rado</wwatches>
+        <wt_shirts>warda</wt_shirts>
+		    <wclothes>sana_safina</wclothes>
+		    <wfoot_wear>bata</wfoot_wear>
+	    </women_fashion>
+	    <grossry>
+		    <rice>zarafa</rice>
+		    <flour>wheat</flour>
+		    <tea>lipton</tea>
+		    <vegetables>green</vegetables>
+	    </grossry>
+	    <home_appliances>
+		    <tv>sony</tv>
+		    <fridge>orient</fridge>
+		    <juicer>national</juicer>
+		    <tooster>national</tooster>
+	    </home_appliances>
+	    <electronic>
+		    <laptop>Denim</laptop>
+		    <mobiles>rado</mobiles>
+		    <usb>Khaddi</usb>
+		    <mouse>idea</mouse>
+	    </electronic>
+	</items>
+</daraz>
